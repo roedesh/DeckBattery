@@ -1,14 +1,26 @@
-# Plugin-Template
+# DeckBattery
 
-This is the template plugin for developing plugins for the [SteamOS Plugin Loader](https://github.com/SteamDeckHomebrew/PluginLoader).
+Plugin for the Steam Deck that gives you access to more info about your battery.
 
-## Usage
+![plugin_demo](./extras/screenshot.png)
 
-1. Click on the green `Use this template` button to create a new repository for your plugin
-2. Rename the `plugin_template.py` file to something unique
-3. Add your code to the plugin's python and html files.
-4. To use it, simply `git clone` the repo into the `/home/deck/homebrew/plugins` folder on your Steam Deck
+## Features
 
-## License
+- Model name
+- Percentage
+- Capacity
+- Warning level
+- Status
+- Time until empty/full
+- Energy level
+    - Current
+    - When empty
+    - When full
+    - When full, by design
+- Voltage
 
-This Template Project is under The Unlicense. You may license your own plugin under whatever license you prefer.
+All this information comes from the following command: `upower -i /org/freedesktop/UPower/devices/battery_BAT1`
+
+## How to install
+
+Simply download the plugin and place the folder in `~/homebrew/plugins`.
