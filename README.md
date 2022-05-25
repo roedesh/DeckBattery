@@ -9,7 +9,6 @@ Plugin for the Steam Deck that gives you access to more info about your battery.
 - Model name
 - Percentage
 - Capacity
-- Warning level
 - Status
 - Time until empty/full
 - Energy level
@@ -18,6 +17,7 @@ Plugin for the Steam Deck that gives you access to more info about your battery.
     - When full
     - When full, by design
 - Voltage
+- Warning level
 
 All this information comes from the following command: `upower -i /org/freedesktop/UPower/devices/battery_BAT1`
 
