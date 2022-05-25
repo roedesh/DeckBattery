@@ -5,7 +5,7 @@
     "tile_view_html": "",
     "flags": ["hot_reload"],
     "publish": {
-        "discord_id": 334456805419778048,
+        "discord_id": "334456805419778048",
         "description": "Shows additional information about your Deck's battery.",
         "tags": ["battery"]
     }
